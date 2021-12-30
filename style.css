@@ -1,0 +1,18 @@
+
+:root{
+    --grandezza:68px;
+    --colore:rgb(22, 9, 204);
+    --raggio: 50px
+   }
+body {
+    background: rgb(25,13,227);
+    background: linear-gradient(180deg, rgb(5, 228, 16) 46%, rgba(255,145,0,1) 46%);
+    background-attachment: fixed;
+}
+
+.palla {
+    width:var(--grandezza);
+    height:var(--grandezza);
+    background-color:var(--colore);
+    border-radius:var(--raggio);
+    }
